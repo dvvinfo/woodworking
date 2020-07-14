@@ -1,0 +1,60 @@
+
+.slider-item-content
+  background: url("../img/heasers.png") no-repeat
+  background-size: cover
+  height: 100vh
+  color: #fff
+  display: flex
+  align-items: center
+  justify-content: flex-start
+  font-family: Montserrat-bold
+
+
+.slider
+  .slick-prev
+    border: none
+    position: absolute
+
+    color: white
+    top: 50%
+    left: 50px
+    right: auto
+    transform: translate(-50%)
+    z-index: 10
+    img
+      width: 33px
+      height: 61px
+      color: #EDB02E
+.slider
+  .slick-next
+    border: none
+    position: absolute
+
+    color: white
+    top: 50%
+    right: 50px
+    left: auto
+    transform: translate(-50%)
+    z-index: 10
+    img
+      width: 33px
+      height: 61px
+      color: #EDB02E
+.slider
+  .slick-dots
+    display: flex
+    align-items: center
+    justify-content: center
+
+.slider
+  .slick-prev:before,.slick-next:before
+   display: none
+.slider-item-block
+  margin-left: 480px
+  border-bottom: 20px solid $orange
+  padding-bottom: 0.6875rem
+  h2
+    font-size: 150px
+  p
+    font-size: 28px
+    text-transform: uppercase
