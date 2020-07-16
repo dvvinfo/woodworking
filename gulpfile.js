@@ -42,9 +42,15 @@ gulp.task('sass', function() {
 
 gulp.task('js', function() {
 	return gulp.src([
+		'app/libs/masonry/modernizr.custom.70736.js',
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/bootstrap/bootstrap.min.js',
 		'app/libs/slick/slick.min.js',
+		'app/libs/masonry/jquery.masonry.min.js',
+		'app/libs/masonry/jquery.history.js',
+		'app/libs/masonry/js-url.min.js',
+		'app/libs/masonry/jquerypp.custom.js',
+		'app/libs/masonry/gamma.js',
 		'app/js/common.js', // Всегда в конце
 		])
 	.pipe(concat('scripts.min.js'))

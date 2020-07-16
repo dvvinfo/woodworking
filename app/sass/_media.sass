@@ -9,6 +9,9 @@
   .slider-item-block
     h2
       font-size: 70px
+  .about-banner-title
+    font-size: 70px
+    width: 300px
   .category-block
     flex-wrap: wrap
   .column
@@ -26,6 +29,8 @@
   .column
     &:nth-child(4)
       margin-right: 0
+  .about-banner-title-block
+    margin-left: 20px
 @media only screen and (max-width : 1440px)
   .menu
     width: 50%
@@ -35,6 +40,8 @@
   .tel-number
     font-size: 20px
     padding-right: 2.0rem!important
+  .about-text-wrapper
+    padding: 6.875rem 0 6.875rem 0
 @media only screen and (max-width : 1290px)
   .menu-nav>.nav-link
     padding-right: 1rem!important
@@ -72,9 +79,15 @@
    background: url("../img/heasers.png") no-repeat center center
   .consultation
     background: url(../img/help.png) no-repeat center center
+  .about-banner
+   background: url("../img/about-header.png") no-repeat center center
+  .galery-wrapper
+    background: url("../img/parents.png") no-repeat center center
   .slider-item-block
     h2
       font-size: 40px
+  .about-banner-title
+    font-size: 40px
     p
       font-size: 20px
   .logo
@@ -104,7 +117,7 @@
     font-size: 25px
     width: 325px
     height: 60px
-  .category, .partners, .consultation
+  .category, .partners, .consultation,.about-text-wrapper,.galery-wrapper
     padding: 1.875rem 0 1.875rem 0
   .about
     padding: 1.875rem 0 1.875rem 0
@@ -151,7 +164,8 @@
     margin-left: 1.25rem
   .tel-block
     background-color: rgba(0, 0, 0, 0.7)
-
+  .galery-wrapper
+    padding-bottom: 1.25rem
 
 
 
@@ -161,6 +175,7 @@
     width: 45%
   .text-1
     text-align: start
+    border-left: 10px solid $orange
   .tel
     margin-right: 1.25rem
   .tel-number
@@ -207,6 +222,11 @@
     height: auto
   .line,.line-1,.line-2,.line-3
     height: 15px
+  .gamma-buttons
+   float: left
+   clear: both
+  .about-text
+    font-size: 18px
 
 
 /* Custom, iPhone Retina */
