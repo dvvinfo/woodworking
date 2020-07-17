@@ -23,6 +23,8 @@ $(function() {
 });
     var GammaSettings = {
         // order is important!
+        keyboard : true,
+        historyapi : true,
         viewport : [ {
             width : 1200,
             columns : 2
@@ -69,4 +71,4 @@ $(function() {
 
     }
 });
-
+var lightbox = $('.gallery a').simpleLightbox({ /* options */ });

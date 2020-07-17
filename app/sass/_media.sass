@@ -1,6 +1,10 @@
 @import "vars"
 
 /*==========  Desktop First  ==========*/
+@media only screen and (max-width : 1700px)
+  .gallery-item
+    img
+      width: 90%
 @media only screen and (max-width : 1540px)
   .menu-nav>.nav-link
     padding-right: 2.0rem!important
@@ -31,6 +35,10 @@
       margin-right: 0
   .about-banner-title-block
     margin-left: 20px
+  .goods-list-description
+    padding-left: 1.875rem
+  .total
+    padding-left: 1.875rem
 @media only screen and (max-width : 1440px)
   .menu
     width: 50%
@@ -42,6 +50,8 @@
     padding-right: 2.0rem!important
   .about-text-wrapper
     padding: 6.875rem 0 6.875rem 0
+  .goods-wrapper-title
+    flex-direction: column
 @media only screen and (max-width : 1290px)
   .menu-nav>.nav-link
     padding-right: 1rem!important
@@ -81,7 +91,7 @@
     background: url(../img/help.png) no-repeat center center
   .about-banner
    background: url("../img/about-header.png") no-repeat center center
-  .galery-wrapper
+  .partners-fon
     background: url("../img/parents.png") no-repeat center center
   .slider-item-block
     h2
@@ -167,7 +177,16 @@
   .galery-wrapper
     padding-bottom: 1.25rem
 
-
+  .gallery-content
+    flex-direction: column
+    margin: 0 auto
+  .gallery-item
+    a
+      margin: 20px 0
+    img
+      width: 100%
+  .goods-title
+    font-size: 35px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
@@ -188,6 +207,32 @@
       width: 30%
   .partners-subtitle
     font-size: 20px
+  .goods-list-description
+    h3
+      font-size: 20px
+    p
+      font-size: 20px
+  .goods-price,.goods-count
+    font-size: 20px
+  .total-title,.total-description
+    font-size: 30px
+  .total-btn
+    font-size: 30px
+    width: 300px
+  .total-guarantee
+    font-size: 20px
+  .goods-list-info
+    flex-direction: column
+  .goods-list-img
+    margin-bottom: 1.25rem
+  .goods-count
+    margin-bottom: 0
+  .goods-quantity
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+
 
 /**/
 
@@ -227,8 +272,14 @@
    clear: both
   .about-text
     font-size: 18px
-
-
+  .goods-list-img
+    flex-direction: column
+  .goods-list-description
+    margin-top: 1.25rem
+  .goods-title
+    font-size: 25px
+  .about-banner-title
+    padding-top: 60px
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
   .partners-logo
