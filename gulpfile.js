@@ -43,8 +43,9 @@ gulp.task('sass', function() {
 gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
-		'app/libs/bootstrap/bootstrap.min.js',
 		'app/libs/slick/slick.min.js',
+		'app/libs/bootstrap/bootstrap.min.js',
+		'app/libs/jquery/dist/jquery.matchHeight-min.js',
 		'app/libs/simplelightbox/simple-lightbox.jquery.min.js',
 		'app/js/common.js', // Всегда в конце
 		])
